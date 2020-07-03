@@ -33,6 +33,6 @@ class Blockchain{
 }
 
 var test = new Blockchain();
-test.addBlock(new Block(1, 03 / 03 / 2020,"amount: 4"));
-test.addBlock(new Block(2, 04 / 05 / 2020, { amount: 3 }));
+test.addBlock(new Block(1, 03 / 03 / 2020,"def data"));
+test.addBlock(new Block(2, 04 / 05 / 2020, { amount: 33 }));
 console.log(JSON.stringify(test,null,4));
