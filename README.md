@@ -24,6 +24,6 @@ let the old difficulty = 4, then new difficulty formula is,
 new_difficulty = old_difficulty * 20160/18144 
                        = 4*1.11111
                        = 4.44  (increase 1.1111)
-if expected blocks number = actual blocks number then difficulty change is equal to zero.
+if expected blocks number == actual blocks number then difficulty change is equal to zero.
 
  
