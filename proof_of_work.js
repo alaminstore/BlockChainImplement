@@ -27,7 +27,7 @@ class Block{
 class Blockchain{
     constructor(){
         this.chain = [this.createGenesisBlock()];
-        this.difficulty = 3;
+        this.difficulty = 5;
     }
     createGenesisBlock(){
         return new Block(0,"02/02/2020","first block","0");
