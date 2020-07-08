@@ -108,3 +108,8 @@ test.minePendingTransaction('Alamin');
 console.log('Miner balance is: ',test.getBalanceOfAddress('Alamin'));
 
 
+console.log('\nThird Mining Start...');
+test.minePendingTransaction('Alamin');
+console.log('Miner balance is: ',test.getBalanceOfAddress('Alamin'));   //just added new coin and increase the miner's balance
+
+
