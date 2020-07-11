@@ -26,4 +26,7 @@ new_difficulty = old_difficulty * 20160/18144
                        = 4.44  (increase 1.11111)
 if expected blocks number == actual blocks number then difficulty change is equal to zero.
 
+###### (RewardForMiner.js) Run the program.
+
+
  
