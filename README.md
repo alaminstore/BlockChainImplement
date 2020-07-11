@@ -22,7 +22,7 @@ new_difficulty = old_difficulty * (targeted block's implement time/actual time w
 if difficulty change after 2 weeks then equivalent munites is 20160. And if the expected mining time interval is 10 minutes then 2016 blocks create for 2 weeks. But if the machine becomes powerful and creates a new block within 9 minutes then the approximate number of created blocks = 18144.<br/>
 let the old difficulty = 4, then new difficulty formula is,<br/>
 new_difficulty = old_difficulty * 20160/18144 <br/>
-                       = 4*1.11111<br/><br/>
+                       = 4*1.11111<br/>
                        = 4.44  (increase 1.11111)<br/>
 if expected blocks number == actual blocks number then difficulty change is equal to zero.<br/>
 
