@@ -1,0 +1,44 @@
+                         Blockchain Implement(How Blockchain actually work)
+                         
+                         Programming Language :  javascript(runtime - Node.js)
+                         Using Algorithm: POW,secp256k1,SHA256
+                         Using Library: Elliptic
+
+Procedure:
+
+1. Create basic from of a blockchain
+       a. create a blockchain with JSON format
+	   b. Create Chain, that's include current hash and previous hash
+       c.connect one block to another
+
+2. Blockchain validation
+       a. Blockchain is valid or not(block's hash and previous hash valu's combination check)
+	   b. Not possible temper blockchain(If anyone try to temper the blockchain and then again recalculate hash)
+
+3. Deploy POW(Proof of Work) algorithm
+      a. Mining block(add block in blockchain)
+	  b. Set difficulty in a hash value(000005454464648484.....)
+	  c. Using Nonce value to change hash and makes it challenging for a miner to mine a block for adding the block in blockchain
+	  d. By using difficulty, mine can take a interval for security purpose
+	  
+4. Set mining reward
+      a. Why miner get interest to mine a block and get commission
+      b. using crypto for reward system for miner
+    
+5. Set Wallet system
+      a. By using elliptic for generating public and private key
+      b. You are not eligible to sign for others wallet
+      c. And after signin wallet woner can send coin to other address and also get reward
+      
+      
+      
+      
+      
+      
+      
+	  
+	  
+
+	  
+	  
+	  
