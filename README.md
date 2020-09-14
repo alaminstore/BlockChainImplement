@@ -29,4 +29,7 @@ if expected blocks number == actual blocks number then difficulty change is equa
 ###### (RewardForMiner.js) Run the program.
 
 
+###### Sample of crypto wallet 
+<img src="https://github.com/alaminstore/BlockChainImplement/blob/master/public_privateKey.png">
+
  
