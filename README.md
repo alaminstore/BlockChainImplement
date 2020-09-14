@@ -24,7 +24,8 @@ let the old difficulty = 5, then new difficulty formula is, <br/>
 new-difficulty = old-difficulty * 20160/18144 <br/>
 = 5*1.11111 <br/>
 = 5.55 (increase 0.55) <br/> 
-Hence,  if  expected  blocks  number  ==  actual  blocks  number  then  difficultychange is equal to zero. The value of Difficulty is changed to control the trans-action of each block on exact time when the machine power is high or lo. <br/>
+Hence,  if  expected  blocks  number  ==  actual  blocks  number  then  difficultychange is equal to zero. <br/>
+The value of Difficulty is changed to control the trans-action of each block on exact time when the machine power is high or low. <br/>
 
 ###### (RewardForMiner.js) Run the program.
 
